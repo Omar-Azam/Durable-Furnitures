@@ -866,6 +866,56 @@ header {
   }
 }
 
+@media (max-width: 1366px) {
+  .product-description {
+    height: 90vh;
+    width: 90vw;
+    top: 5vh;
+    left: 5vw;
+  }
+  .close-icon {
+    font-size: 2.5rem;
+  }
+  .p-content .img-box {
+    height: 95%;
+    width: 80%;
+  }
+  .p-content .p-info {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .p-info #p-type {
+    font-size: 0.7rem;
+    margin-top: 5px;
+  }
+  .p-info #p-name {
+    font-size: 1.7rem;
+    margin-top: 5px;
+  }
+  .p-info #p-price {
+    font-size: 1.7rem;
+    margin-top: 5px;
+  }
+  .p-info p:nth-child(5) {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  .p-info #p-description {
+    font-size: 1rem;
+    margin-right: 20%;
+    margin-top: 1%;
+    line-height: 1.9rem;
+  }
+  .cart button {
+    transform: scale(1.1);
+    margin-left: 15px;
+  }
+  .cart input {
+    transform: scale(1.1);
+  }
+}
+
+
 @media (max-width: 1200px) {
   .navbar a {
     font-size: 0.9rem;
